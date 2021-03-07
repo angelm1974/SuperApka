@@ -1,5 +1,22 @@
 <div class="container-sm">
-  <h1>Działa</h1>
+    <div class="alert alert-success" role="alert">
+        <h2>{{title}}</h2>
+      </div>
+  
   <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
   <button mat-raised-button color="accent">Accent</button>
 </div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+        Opis moich herosów
+      </div>
+      <div class="col-sm">
+        <app-herosi></app-herosi>
+      </div>
+      <div class="col-sm">
+        <app-herosi></app-herosi>
+      </div>
+    </div>
+  </div>
